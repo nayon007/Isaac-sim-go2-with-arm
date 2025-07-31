@@ -1,0 +1,5 @@
+[console_scripts]
+trot_pd_controller = go2_trot_publisher.trot_pd_controller:main
+trot_publisher = go2_trot_publisher.trot_publisher:main
+walk_crawl_pd_controller = go2_trot_publisher.walk_crawl_pd_controller:main
+

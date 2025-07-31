@@ -1,0 +1,17 @@
+running develop
+running egg_info
+creating go2_trot_publisher.egg-info
+writing go2_trot_publisher.egg-info/PKG-INFO
+writing dependency_links to go2_trot_publisher.egg-info/dependency_links.txt
+writing entry points to go2_trot_publisher.egg-info/entry_points.txt
+writing requirements to go2_trot_publisher.egg-info/requires.txt
+writing top-level names to go2_trot_publisher.egg-info/top_level.txt
+writing manifest file 'go2_trot_publisher.egg-info/SOURCES.txt'
+reading manifest file 'go2_trot_publisher.egg-info/SOURCES.txt'
+writing manifest file 'go2_trot_publisher.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/hafiz/go2_ws/install/go2_trot_publisher/lib/python3.10/site-packages/go2-trot-publisher.egg-link (link to .)
+Installing trot_pd_controller script to /home/hafiz/go2_ws/install/go2_trot_publisher/lib/go2_trot_publisher
+Installing trot_publisher script to /home/hafiz/go2_ws/install/go2_trot_publisher/lib/go2_trot_publisher
+
+Installed /home/hafiz/go2_ws/build/go2_trot_publisher

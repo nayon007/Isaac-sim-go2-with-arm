@@ -1,0 +1,18 @@
+[0.458s] Invoking command in '/home/hafiz/go2_ws/build/go2_trot_publisher': PYTHONPATH=/home/hafiz/go2_ws/build/go2_trot_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hafiz/go2_ws/install/go2_trot_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hafiz/go2_ws/build/go2_trot_publisher/build --no-deps
+[0.645s] running develop
+[0.776s] running egg_info
+[0.776s] writing go2_trot_publisher.egg-info/PKG-INFO
+[0.776s] writing dependency_links to go2_trot_publisher.egg-info/dependency_links.txt
+[0.776s] writing entry points to go2_trot_publisher.egg-info/entry_points.txt
+[0.776s] writing requirements to go2_trot_publisher.egg-info/requires.txt
+[0.776s] writing top-level names to go2_trot_publisher.egg-info/top_level.txt
+[0.778s] reading manifest file 'go2_trot_publisher.egg-info/SOURCES.txt'
+[0.778s] writing manifest file 'go2_trot_publisher.egg-info/SOURCES.txt'
+[0.779s] running build_ext
+[0.779s] Creating /home/hafiz/go2_ws/install/go2_trot_publisher/lib/python3.10/site-packages/go2-trot-publisher.egg-link (link to .)
+[0.780s] Installing trot_pd_controller script to /home/hafiz/go2_ws/install/go2_trot_publisher/lib/go2_trot_publisher
+[0.780s] Installing trot_publisher script to /home/hafiz/go2_ws/install/go2_trot_publisher/lib/go2_trot_publisher
+[0.780s] Installing walk_crawl_pd_controller script to /home/hafiz/go2_ws/install/go2_trot_publisher/lib/go2_trot_publisher
+[0.780s] 
+[0.780s] Installed /home/hafiz/go2_ws/build/go2_trot_publisher
+[0.803s] Invoked command in '/home/hafiz/go2_ws/build/go2_trot_publisher' returned '0': PYTHONPATH=/home/hafiz/go2_ws/build/go2_trot_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hafiz/go2_ws/install/go2_trot_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hafiz/go2_ws/build/go2_trot_publisher/build --no-deps
