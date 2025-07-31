@@ -139,6 +139,13 @@ ROS2 Publish Joint State uses robot root as targetPrim
     - `ROS2 Subscriber` (to `/robot/joint_commands`)
     - `Articulation Controller` for your robot
     - Wire nodes so only **one command source** is active at a time
+  
+## Isaac Sim Action Graph Example
+
+This diagram shows the Action Graph setup in Isaac Sim for whole-body ROS 2 control:
+
+![Isaac Sim Action Graph Example](./Screenshot%20from%202025-07-30%2015-54-29.png)
+
 
 ### ROS 2 Workspace
 
