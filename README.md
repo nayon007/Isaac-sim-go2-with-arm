@@ -101,23 +101,23 @@ Save as a USD file for faster workflow.
 ### Step 4. Create the Action Graph
 Add and connect these nodes:
 
-On Playback Tick
+- On Playback Tick
 
-ROS2 Context
+- ROS2 Context
 
-ROS2 Publish Joint State
+- ROS2 Publish Joint State
 
-Set topicName to /joint_states
+  - Set topicName to `/joint_states`
 
-Set targetPrim to your robot's root link
+  - Set `targetPrim` to your robot's root link
 
-ROS2 Subscriber
+- ROS2 Subscriber
 
-Set topicName to /robot/joint_commands
+  - Set topicName to `/robot/joint_commands`
 
-Articulation Controller
+- Articulation Controller
 
-Set targetPrim to your robot's root
+  - Set `targetPrim` to your robot's root
 
 #### Wire as follows:
 
