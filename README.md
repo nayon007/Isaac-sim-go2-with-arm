@@ -60,6 +60,76 @@ go2_ws/
 - **ROS 2 Humble**
 - Python 3.10+, numpy
 
+## 🛠️ How to Merge Go2 and D1 Arm URDFs & Control in Isaac Sim
+### Step 1. Merge the URDFs
+Pick the attachment link on Go2 (e.g., body_link or base_link).
+
+Copy all <link> and <joint> elements from your D1 arm URDF into the Go2 URDF.
+
+Add a fixed joint to attach the D1 arm to the Go2 body, e.g.:
+  
+    ```bash
+    <joint name="go2_to_d1_arm" type="fixed">
+    <parent link="go2_body_link"/>
+    <child link="d1_arm_base_link"/>
+    <origin xyz="0 0 0.15" rpy="0 0 0"/>
+    </joint>
+    ```
+
+Ensure all joint/link names are unique.
+(Tip: prefix D1 arm links/joints if needed)
+
+Merge any <transmission> or <gazebo> tags if present.
+
+### Step 2. Test the Merged URDF in ROS 2
+Visualize with RViz to verify both Go2 and D1 arm:
+
+    ```bash
+    ros2 launch urdf_launch display.launch.py urdf:=/path/to/merged_go2_with_d1.urdf
+    ```
+Confirm all joints move and the structure is correct.
+
+### Step 3. Import the URDF into Isaac Sim
+Open Isaac Sim → File > Import > URDF...
+
+Select your merged URDF.
+
+Fix import errors (missing meshes, names, etc.).
+
+Save as a USD file for faster workflow.
+
+### Step 4. Create the Action Graph
+Add and connect these nodes:
+
+On Playback Tick
+
+ROS2 Context
+
+ROS2 Publish Joint State
+
+Set topicName to /joint_states
+
+Set targetPrim to your robot's root link
+
+ROS2 Subscriber
+
+Set topicName to /robot/joint_commands
+
+Articulation Controller
+
+Set targetPrim to your robot's root
+
+#### Wire as follows:
+
+Playback Tick → Exec In on all nodes
+
+ROS2 Context → Context on ROS2 nodes
+
+ROS2 Subscriber Data → Articulation Controller Position Command
+
+ROS2 Publish Joint State uses robot root as targetPrim
+
+
 ### Isaac Sim Setup
 
 1. Launch Isaac Sim and load your Go2 robot + arm.
