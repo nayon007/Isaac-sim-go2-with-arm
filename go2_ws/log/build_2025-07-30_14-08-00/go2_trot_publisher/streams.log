@@ -1,0 +1,17 @@
+[0.420s] Invoking command in '/home/hafiz/go2_ws/build/go2_trot_publisher': PYTHONPATH=/home/hafiz/go2_ws/build/go2_trot_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hafiz/go2_ws/install/go2_trot_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hafiz/go2_ws/build/go2_trot_publisher/build --no-deps
+[0.593s] running develop
+[0.713s] running egg_info
+[0.713s] writing go2_trot_publisher.egg-info/PKG-INFO
+[0.713s] writing dependency_links to go2_trot_publisher.egg-info/dependency_links.txt
+[0.713s] writing entry points to go2_trot_publisher.egg-info/entry_points.txt
+[0.713s] writing requirements to go2_trot_publisher.egg-info/requires.txt
+[0.713s] writing top-level names to go2_trot_publisher.egg-info/top_level.txt
+[0.715s] reading manifest file 'go2_trot_publisher.egg-info/SOURCES.txt'
+[0.715s] writing manifest file 'go2_trot_publisher.egg-info/SOURCES.txt'
+[0.716s] running build_ext
+[0.716s] Creating /home/hafiz/go2_ws/install/go2_trot_publisher/lib/python3.10/site-packages/go2-trot-publisher.egg-link (link to .)
+[0.716s] Installing trot_pd_controller script to /home/hafiz/go2_ws/install/go2_trot_publisher/lib/go2_trot_publisher
+[0.717s] Installing trot_publisher script to /home/hafiz/go2_ws/install/go2_trot_publisher/lib/go2_trot_publisher
+[0.717s] 
+[0.717s] Installed /home/hafiz/go2_ws/build/go2_trot_publisher
+[0.739s] Invoked command in '/home/hafiz/go2_ws/build/go2_trot_publisher' returned '0': PYTHONPATH=/home/hafiz/go2_ws/build/go2_trot_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hafiz/go2_ws/install/go2_trot_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hafiz/go2_ws/build/go2_trot_publisher/build --no-deps

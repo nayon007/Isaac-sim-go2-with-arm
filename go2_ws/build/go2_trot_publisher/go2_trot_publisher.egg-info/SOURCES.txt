@@ -1,0 +1,13 @@
+setup.cfg
+setup.py
+go2_trot_publisher/__init__.py
+go2_trot_publisher/trot_pd_controller.py
+go2_trot_publisher/trot_publisher.py
+go2_trot_publisher/walk_crawl_pd_controller.py
+go2_trot_publisher.egg-info/PKG-INFO
+go2_trot_publisher.egg-info/SOURCES.txt
+go2_trot_publisher.egg-info/dependency_links.txt
+go2_trot_publisher.egg-info/entry_points.txt
+go2_trot_publisher.egg-info/requires.txt
+go2_trot_publisher.egg-info/top_level.txt
+go2_trot_publisher.egg-info/zip-safe
